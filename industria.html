@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>ElectroIoT-Ingenieria</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png" style="color: yellow;">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <link rel="icon" type="image/x-icon" href=" imagenes/icono-blanco.svg" style="color: yellow;">
+
+            
+            ElectroIoT-Ingenieria
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Volver al inicio</a>
+            </li>
+            <li class="nav-item">
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="8000">
+            <img src="imagenes/l18.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+               <h4 class=" bg-opacity-75 text-white">La transformación digital ha adquirido un papel muy importante, ahora es la 
+                responsable de cambiar la industria y adaptarla a una industria conectada. Es un proceso 
+                que requiere de una gran concienciación personal y unificada de todos los componentes 
+                de una compañía. </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="imagenes/l13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+               <h4 class="text-darkfont-weight-bold "> Ahora las compañías de fabricación industrial están utilizando una 
+                tecnología avanzada que pasa de una producción en masa a una producción personalizada, 
+                y está sucediendo a un ritmo acelerado.</h4>
+            </div>
+          </div>
+           
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+     
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor" >
+        <h2 class="seccion-titulo">Internet de las cosas</h2>
+        <p class="seccion-texto"> El Internet de las cosas se fundamenta en la interacción entre los equipos de 
+          adquisición de datos con la nube. El Internet de las cosas es la revolución entre objetos y personas, juntándolos de 
+          una forma en la que se puede interactuar entre sí. La ventaja que ofrece con esta conexión 
+          es obtener datos en tiempo real.
+          
+        </p>
+      </div>
+    </section>
+    <h4 class="seccion-titulo texto-negro text-center">Una introducción de algunas herramientas utilizadas con enfoque a la 
+      industria 4.0 </h4>
+      <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+         
+   
+         <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Node-RED</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      Node red es una herramienta de programación desarrollada por IBM que está construida en Node.js
+                     , que permite conectar varios dispositivos por la simplicidad que trae y es por eso que node red está diseñado o
+                      se le está dando su mejor uso para dar soluciones iot de una manera fácil y sencilla, ya que la programación
+                       se hace a través de flujos, no es necesario dominar un lenguaje de programación de alto nivel, es un software
+                        open source lo cual nos  indica que no hace falta pagar alguna licencia para utilizarla, y tiene una interfaz
+                         amigable para hacer las diferentes tareas que queremos realizar.
+                    </div>
+                    
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <div class="card">
+                    <h5 class="card-title text-dark">Node-RED</h5>
+  
+                  <img src="imagenes/l11.png" class="card-img-top" alt="..."  >
+                  
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver información
+                </button>
+              </div>
+            <!-- Proyecto 2 -->
+              
+              <div class="col-12 col-md-6 col-lg-4">
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Plataforma Web IIoT</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-dark">
+                        Las plataformas enfocadas al IIoT son el software que permite conectar dispositivos, 
+                        sensores, actuadores y equipos industriales en un entorno digital.
+                      </div>
+                      <p class="card-text text-dark"> Principales elementos que conforma las plataformas IIoT
+                      </p>
+                      <p class="text-dark">Hardware</p><br>
+                      <p class="text-dark">Software</p><br>
+                      <p class="text-dark">Conectividad</p><br>
+                      <p class="text-dark">Interfaz de acceso</p>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    <div class="card">
+                      <h5 class="card-title text-dark">Plataforma Web IIoT</h5>
+    
+                    <img src="imagenes/l12.png" class="card-img-top" alt="..."  >
+                    
+                  </div>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Ver información
+                  </button>
+                </div>
+            
+            
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Cloud Computing</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    Cloud Computing actualmente es una tecnología que ofrece servicios a través 
+                                del internet, basado en servidores accesibles desde cualquier lugar y en tiempo real. Tiene 
+                                10
+                                como característica principal el acceso, almacenamiento y gestión de los datos obtenidos 
+                                por los dispositivos.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div class="card">
+                  <h5 class="card-title text-dark">Cloud Computing</h5>
+
+                <img src="imagenes/l11.jpg" class="card-img-top" alt="..."  height="305px">
+                
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ver información
+              </button>
+            </div>
+            
+          </div>
+ 
+       </section>
+
+    
+  
+  
+</section>
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo text-white">Node-RED </h2>
+       <h2 class="seccion-titulo text-white">Realizamos Paneles de control con Node-Red para una visualización y control
+        de parametros de algun proceso en especifico.
+       </h2>
+       <h2 class="seccion-titulo text-white">Gracias a Node-RED tenemos la posibilidad de enviar datos a una plataforma web montada
+        en la nube a través del protocolo MQTT, asi de poder monitorear de forma remota todo lo que sucede en tu fabrica.
+       </h2>
+ 
+ 
+       <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l15.png" alt="Proyecto 1" height="2500px">
+              <div class="overlay">
+                <p>Node-RED</p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l20.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Node-RED</p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l17.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Node-RED</p>
+                 
+              </div>
+            </div>
+          </div>
+     </section>
+
+     <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo text-white">Plataforma Web</h2>
+       <h2 class="seccion-titulo text-white">Realizamos la plataforma web conteniendo únicamente los indicadores que sean mas
+        importante de un proceso.
+       </h2>
+       <h2 class="seccion-titulo text-white"> La plataforma es visualizado con el fin que la información que se requiera,
+         se la pueda presentar en una forma entendible al usuario, en donde los datos se van actualizando constantemente.
+       </h2>
+       <h2 class="seccion-titulo text-white"> Gracias a la plataforma web, se puede acceder al proceso monitoreado desde cualquier
+        dispositivo conectado a internet.
+      </h2>
+ 
+       <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l21.png" alt="Proyecto 1" height="2500px">
+              
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l22.png" alt="Proyecto 1">
+             
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l23.png" alt="Proyecto 1">
+              
+            </div>
+          </div>
+     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>ElectroIoT-Ingenieria</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png" style="color: yellow;">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <link rel="icon" type="image/x-icon" href=" imagenes/icono-blanco.svg" style="color: yellow;">
+
+            
+            ElectroIoT-Ingenieria
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#sobre-mi">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#proyectos">Diseño</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#industria4.0">Industria 4.0</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="imagenes/imagenes-desarrolladores/p1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-white font-weight-bold">ElectroIoT-Ingenieria</h2>
+              <h4 class="bg-primary bg-opacity-50">Montaje Eléctrico</h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/imagenes-desarrolladores/p3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-white font-weight-bold">ElectroIoT-Ingenieria</h2>
+              <h4 class="text-white font-weight-bold bg-primary bg-opacity-50">Proyectos de Iluminación-Gestión de Luces</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/imagenes-desarrolladores/p5.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-white font-weight-bold">ElectroIoT-Ingenieria</h2>
+              <h4 class="text-white font-weight-bold bg-primary bg-opacity-50">Desarrollo de Software enfocado a la Industria 4.0</h4>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+     
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor" >
+        <h2 class="seccion-titulo">ElectroIoT-Ingenieria</h2>
+        <p class="seccion-texto"> Ofrecemos servicios innovadores enfocados a la Industria 4.0 para
+          dar valor agregado a lo que se necesita hoy en dia para conseguir la optimización de procesos.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <p>Nuestros Servicios:</p>
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-gear"></i>
+            <p class="experiencia-titulo">AUTOMATIZACIÓN</p>
+            <p> Realizamos la programación y el diseño de PLC y HMI de diversas marcas</p>
+            <p>Diseño de arquitecturas para sistemas de control y gestión. Planificación y desarrollo de 
+              ingeniería básica y de detalle para automatización</p>
+              <p>Montaje, ajuste y mantenimiento de equipos industriales</p>
+            
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-layout-three-columns"></i>            
+            <p class="experiencia-titulo">Tableros eléctricos para Automatización</p>
+            <p>Planificación, diseño y especificación de tableros eléctricos para automatización </p>
+            <p>Diseño de estrategias, desarrollo de implementación y configuración de todo el equipamiento.
+               Los servicios de configuración se basan en estándares 
+              de programación que se adaptan a la solución de cada necesidad</p>
+             
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-list-check"></i>           
+            <p class="experiencia-titulo"> Soporte Técnico</p>
+            <p>Toda intervención en las instalaciones recibe asistencia en sitio y seguimiento personalizado, 
+              garantizando su normal funcionamiento y una respuesta inmediata ante anomalías</p>
+              <p> El soporte técnico puede realizarse en forma presencial o remota</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Soluciones IIoT</p>
+            <p>La digitalización está siendo cada vez más importante para el realizamientos de las actividades cotidianas</p>
+            <p>Es por eso que la industria no se queda atrás, ofrecemos soluciones basados en la industria 4.0</p>
+            <p>Utilizando el IIoT como herramienta para dar soluciones innovadoras, y ayudar así a la digitalización de la industria
+             </p>
+             <p></p>
+            <br>
+            <br>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-lightbulb-fill"></i>
+            <p class="experiencia-titulo">Diseño de proyectos de iluminación </p>
+            <p>Ofrecemos servicios de realizamiento de proyectos de iluminación ya sea para residencias, industrias, edificios
+              y en general.
+            </p>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+              <p></p>
+            <br>
+            <br>
+            <p></p>
+            <br>
+            <br>
+            <p></p>
+           </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-lightning-fill"></i>
+            <p class="experiencia-titulo">Gestión Energética</p>
+            <p>En la era de la escasez de recursos, el aumento de los precios de la energía y 
+              la importancia de la protección del clima, la gestión integral de la energía es hoy en
+               día uno de los temas centrales para las empresas
+            </p>
+             <p>Es por eso que ofrecemos servicios de gestión para que las empresas en general tenga un control y 
+              monitoreo de las variables energeticas y como estas están afectando al proceso, buscando asi el ahorro de tiempo y dinero
+            </p>
+            <p>Tambien ayudamos a seguir compitiendo en el mercado con la gestión energética ya que
+               una empresa que gasta menos en la factura de la luz puede invertir en la producción,
+                en el aumento del personal, en mejores tecnologías, etc., y así tornarse más competitiva</p>
+           </div>
+        </div>
+      </div>
+    </section>
+ <!-- Sobre mi -->
+ <section id="nosotros" class="sobre-mis seccion-oscuras">
+  <div class="contenedor" >
+    <h2 class="seccion-titulo">Nosotros</h2>
+    <p>Una pequeña introducción de nuestra empresa.
+    </p>
+    <p class="seccion-texto"> ElectroIoT-Ingenieria es una empresa joven compremetida en acompañar 
+      el crecimiento de tu empresa que está constituida por un grupo de técnicos especializados en cada área que buscamos ofrecer servicios
+     de calidad y dar soluciones innovadoras para ayudar a las industrias en su transformación digital.
+    </p>
+  </div>
+  
+</section>
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Hacemos usos de software de primer nivel para nuestro proyectos </h2>
+       <h2 class="seccion-titulo texto-negro">DIALux </h2>
+      <h3 class="seccion-descripcion">Nos encargamos de la realizacion de tu diseño grafico  para la planificación de iluminación en interiores y exteriores.</h3>
+      <h3 class="seccion-descripcion">Simplificamos el diseño de iluminación para usted: diseñe, calcule y visualice la luz con DIALux evo
+      </h3>
+
+       <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>DIALux</p>
+                <div class="iconos-contenedor">
+                     <i class="bi bi-sun-fill"></i>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>DIALux</p>
+                <div class="iconos-contenedor">
+                     <i class="bi bi-sun-fill"></i>
+                   </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l3.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>DIALux</p>
+                <div class="iconos-contenedor">
+                     <i class="bi bi-sun-fill"></i>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="seccion-titulo texto-negro">EPLAN electric</h2>
+          <h3 class="seccion-descripcion">EPLAN ofrece soluciones de software y servicios en los campos de la ingeniería eléctrica, de automatización y mecatrónica.
+            </h3>
+           
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>EPLAN</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-textarea"></i>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l4.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>EPLAN</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-textarea"></i>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l5.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>EPLAN</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-textarea"></i>
+
+                    </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="seccion-titulo texto-negro">AutoCAD Electrical</h2>
+          <h3 class="seccion-descripcion">Herramienta especializada para acelerar el proceso de diseño de sistemas de control y automatización. </h3>
+           
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l8.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>AutoCAD Electrical</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-window-fullscreen"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l7.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>AutoCAD Electrical</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-window-fullscreen"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/l6.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>AutoCAD Electrical</p>
+                <div class="iconos-contenedor">
+                  <i class="bi bi-window-fullscreen"></i>
+                   </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </section>
+ <!-- Sobre mi -->
+ <section id="industria4.0" class="sobre-mis seccion-oscuras">
+  <div class="contenedor" >
+    <h2 class="seccion-titulo">Industria 4.0</h2>
+   
+    <p class="seccion-texto"> El término de Industria 4.0 es la representación de lo llamado la cuarta 
+      revolución industrial de la fabricación, una transformación digital del sector industrial 
+      con automatización, intercambio de datos, la subida a la nube de datos para lograr objetivos 
+      industriales y de fabricación inteligentes interactuando con personas, nuevas tecnologías 
+      e innovación. Sin ir más lejos, el concepto de industria 4.0 es la introducción de las 
+      tecnologías digitales en los procesos de fabricación.
+      
+    </p>
+     
+  </div>
+  <a href="industria.html">
+    <button type="button" class="btn btn-primary">Conocer más de la Industria 4.0 y de los servicios que ofrecemos
+      <i class="bi bi-box-arrow-in-right"></i>
+    </button>
+
+
+  </a>
+</section>
+     
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-clara">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo text-white">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:electroiotingenieria@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">ElectroIoT-Ingenieria.<br>Creemos un proyecto juntos.</p>
+      <p class="footer-texto text-center">Telefonos:<br>0985-857091 <br> 0991-261252</p>
+
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:electroiotingenieria@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por ElectroIoT-Py</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
